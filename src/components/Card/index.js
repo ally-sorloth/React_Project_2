@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./Card.module.css"
+import styles from "./Card.style.scss"
 
 export const Card = () => {
     return (
-        <div className={styles.cardWrapper}>
+        <div className="card-wrapper">
             <p>CARD</p>
         </div>
     )
