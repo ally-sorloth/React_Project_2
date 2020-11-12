@@ -1,14 +1,11 @@
 import React from "react";
 
-const cardStyle = {
-    color: 'red',
-    fontSize: 30,
-    backgroundColor: 'blue'
-}
+import "./Card.style.css"
+
 export const Card = () => {
     return (
-        <div style={cardStyle}>
-            CARD
+        <div className="card-wrapper">
+            <p>CARD</p>
         </div>
     )
 }
